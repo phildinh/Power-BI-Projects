@@ -24,7 +24,8 @@ This project utilizes Power BI to visualize a dataset of pizza sales, aiming to 
 4. **Price Sensitivity Analysis**: Examine which pizza sizes are popular and most profitable. Based on this analysis, are there pricing strategies that could be implemented to increase profits? Provide any recommendations for marketing strategies.
 
 ## Sale trend analysis
-![power_bi_sale_trend](https://github.com/phildinh/pizza_power_bi/assets/169891895/15449437-156d-46ad-82af-d73f74b1b204)
+![image](https://github.com/user-attachments/assets/c3ff72bc-5d50-4870-9ef6-57c3175078e7)
+
 
 - The sales trend dashboard indicates that while the total number of orders increased in Quarter 3, revenue did not follow the same trend. In detail, August shows a higher order volume compared to November, yet this is not reflected in the revenue, which is higher in November. 
 
@@ -38,7 +39,8 @@ This project utilizes Power BI to visualize a dataset of pizza sales, aiming to 
 - As the data indicates, Extra Large-sized pizzas generate the most revenue. Therefore, focusing sales efforts on upsizing between Large and Extra Large pizzas could substantially increase profits.
 
 ## Working Performance
-![Screenshot 2024-05-15 195808](https://github.com/phildinh/pizza_power_bi/assets/169891895/2750492b-90ae-4378-9147-d300e703b3d3)
+![image](https://github.com/user-attachments/assets/25c0b2db-2869-4edf-bec2-22fcabe07547)
+
 
 - The visualizations reveal that Friday achieves the highest totals in both orders and revenue, while Sunday records the opposite. Peak hours are observed during lunchtime, between 12 PM and 1 PM, which is the busiest time, and dinner time occurs from 5 PM to 7 PM.
 
@@ -46,7 +48,7 @@ This project utilizes Power BI to visualize a dataset of pizza sales, aiming to 
 Furthermore, the time slots from 9 AM to 10 AM and from 11 PM exhibit very low order quantities, contributing minimally to the store's revenue.
 
 ### Recommendations:
-![1](https://github.com/phildinh/pizza_power_bi/assets/169891895/1aa698ef-ca1b-4e72-b6b8-243b0299855b)
+![image](https://github.com/user-attachments/assets/6744c546-6099-4b39-bb03-51b5061a2438)
 
 - Proper staff allocation is essential to ensure timely production and customer service satisfaction, especially on Fridays and Saturdays from 8 PM to 10 PM.
 - Additionally, special attention should be paid to holidays and special days to ensure timely service and efficient production.
@@ -54,14 +56,18 @@ Furthermore, the time slots from 9 AM to 10 AM and from 11 PM exhibit very low o
 - Training staff with ability to handle multiple role to adapt heavy works in peak hours.
 
 ## Product Performance
-![Screenshot 2024-05-15 200315](https://github.com/phildinh/pizza_power_bi/assets/169891895/65bab58b-8660-4d7a-a0c4-cb3d7b84ecd0)
+![image](https://github.com/user-attachments/assets/eb78757c-fd2b-412f-8bb0-3b5d81f05855)
+
 
 - According to the product performance visualizations, the Classic category exhibits the highest volume of orders, with the Classic Deluxe pizza demonstrating the most significant order volume. The least number of orders and revenue is associated with the Brie Carrer pizza from the Supreme category, while the Thai Chicken pizza from the Chicken category generates the most revenue. 
 - Notably, the total quantity of Medium-sized pizzas sold is higher than that of Small-sized ones by 8.3%, yet there is a substantial difference in revenue of approximately 40% between the two sizes. Moreover, the Large-sized pizzas account for the majority of the revenue.
 
 ## Price Sensitivity Analysis
-![Screenshot 2024-05-15 200723](https://github.com/phildinh/pizza_power_bi/assets/169891895/653e41d3-7cd2-4878-82a8-e3682a4ac10a)
-![Screenshot 2024-05-15 200738](https://github.com/phildinh/pizza_power_bi/assets/169891895/d039b231-4531-4e0d-b99f-7862da1dde56)
+![image](https://github.com/user-attachments/assets/19db56b0-2484-45da-b7df-53931f5167f7)
+![image](https://github.com/user-attachments/assets/79511fda-cdc8-404b-b65a-3ff3e85382e4)
+
+
+
 ###Categories, size and ingredient
 
 - Tables (3) and (1) show that pizzas from the Classic category have the highest sales quantities, with the small, medium, and extra-large sizes being particularly popular. Additionally, the Veggie pizza is the best seller in the large size category. With this data, the company can strategically stock ingredients and prepare pizza bases to meet customer demand.
