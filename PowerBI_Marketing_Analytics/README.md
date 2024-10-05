@@ -19,7 +19,8 @@ This Global Marketing Performance Dashboard provides a comprehensive view of our
 ## Tools Used
 
 - **Power BI**: For creating and maintaining the interactive dashboard.
-- **Microsoft Excel**: For initial data processing and cleaning.
+- **Microsoft Excel**: For checking dataset, columns, tittles.
+- **Python**: For checking all data from dataset, cleaning and preparing for visualization.
 
 ## Usage
 
