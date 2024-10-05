@@ -15,7 +15,8 @@ This HR Dashboard project is designed to provide key insights into the workforce
 
 Here's a snapshot of what the dashboard looks like:
 
-![Screenshot 2024-05-15 202614](https://github.com/phildinh/pizza_power_bi/assets/169891895/2cc3ca49-4ce7-4213-bee6-920b24faf0ca)
+![image](https://github.com/user-attachments/assets/26708014-b18d-4d31-9fd1-9abc0da32b1d)
+
 
 
 ## Tools Used
