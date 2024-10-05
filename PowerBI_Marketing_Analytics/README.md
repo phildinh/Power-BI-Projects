@@ -29,7 +29,8 @@ To view the dashboard:
 3. Use the filter options to customize the data display according to specific criteria.
 
 ## Marketing dasboard
-![marketing](https://github.com/phildinh/pizza_power_bi/assets/169891895/697f90c8-39c6-4290-ad69-c44fb324e542)
+![image](https://github.com/user-attachments/assets/efbb1d38-eabf-4d5c-a49f-2e0937950616)
+
 
 
 ## Questions and request from the Marketing Department
@@ -66,4 +67,4 @@ To view the dashboard:
 
 ## Contact Information
 
-For more information, please contact [PhilDinh](dinhthanhtrung2011@gmail.com).
+For more information, please contact [PhilDinh](phildinhdata@gmail.com).
