@@ -73,6 +73,13 @@ The dashboard was developed at the request of business leaders to:
 
 - **Strengthen Advisor Capabilities**: Further develop advisor training programs with a focus on data literacy and customer relationship management. This will empower advisors to make data-backed recommendations to clients, improving sales outcomes and customer satisfaction.
 
+## License
+
+Specify the license under which the project is released
+
+## Contact Information
+
+For further information, collaboration, or inquiries, feel free to contact [Phil Dinh](mailto:dinhthanhtrung2011@gmail.com).
 
 
 
