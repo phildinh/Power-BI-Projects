@@ -20,12 +20,14 @@ The dashboard was developed at the request of business leaders to:
 - Drive strategic decisions through data-driven insights.
 
 ## Dashboards
-![image](https://github.com/user-attachments/assets/dc287783-1866-4699-8687-dbbcf5c81abd)
+![image](https://github.com/user-attachments/assets/a092bef7-e0b0-4e7f-b86c-3b163af8a4c1)
+
 
 ## Dashboard breakdowns
-![image](https://github.com/user-attachments/assets/d175e57b-5452-4b3c-b080-8fa2fe531e78)
-![image](https://github.com/user-attachments/assets/5c0d238c-e83a-4e72-8d8f-259af689bca2)
-![image](https://github.com/user-attachments/assets/5ea49f85-5c53-4880-91eb-d578810ce8ed)
+![image](https://github.com/user-attachments/assets/71e3b1ae-cb46-44e2-862b-b8aae1c3702a)
+![image](https://github.com/user-attachments/assets/b57f0e8d-117d-4667-89c4-108616976618)
+![image](https://github.com/user-attachments/assets/3b4f4e04-c830-47ba-87f4-521b332eba93)
+
 
 
 
