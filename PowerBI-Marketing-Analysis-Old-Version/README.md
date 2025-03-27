@@ -1,71 +1,126 @@
-# Global Marketing Performance Dashboard
+# 🌍 Global Marketing Performance Dashboard  
 
-## Overview
+## 📌 Overview  
+The **Global Marketing Performance Dashboard** provides detailed insights into customer behavior, campaign effectiveness, and purchasing trends across multiple international markets. Built in **Power BI**, this dashboard empowers global marketing teams to analyze performance by country, customer demographics, product categories, and marketing channels.
 
-This Global Marketing Performance Dashboard provides a comprehensive view of our marketing strategies across various countries. It is designed to track and analyze customer interactions, campaign responses, and spending behaviors segmented by demographic attributes like education level and marital status.
+With filters by country and interactive drill-downs, the dashboard provides a holistic view that enables strategic marketing decisions, targeted campaigns, and smarter segmentation based on education, income, spending, and household structure.
 
-## Features
+---
 
-- **Product Categories**: Visualization of sales distribution across different product categories.
-- **Marketing Channels**: Analysis of customer engagement through various marketing channels.
-- **Income and Spending by Education Level**: Compares the average income and spending habits segmented by the educational attainment of the customer base.
-- **Campaign Response Rates**: Details the effectiveness of different marketing campaigns.
-- **Marital Status**: Shows the marital distribution of our customers and their responsiveness to marketing efforts.
-- **Number of Days Since Customer's Last Purchase**: Tracks customer retention by showing the recency of purchases.
-- **Number of Customer Complaints**: Highlights the volume of complaints received, categorized by customer education level.
-- **Number of Children and Teenagers in Households by Parental Education Level**: Analyzes the family composition of our customers, providing insight into potential market segments.
+## 🎯 Purpose  
+This dashboard was developed to help the marketing department address the following:
 
+- Track product category performance across multiple regions  
+- Understand customer responses across education levels, income groups, and family structures  
+- Optimize marketing channel allocation  
+- Evaluate campaign engagement rates and improve future campaign design  
+- Identify complaint trends and refine retention strategies
 
-## Tools Used
+---
 
-- **Power BI**: For creating and maintaining the interactive dashboard.
-- **Microsoft Excel**: For checking dataset, columns, tittles.
-- **Python**: For checking all data from dataset, cleaning and preparing for visualization.
+## 🧩 Dataset  
+The dataset includes customer-level and campaign-level data across several countries. Key fields:
 
-## Usage
+- **Demographics**: Age, gender, education, marital status, children at home  
+- **Spending & Income**: Total income and average order value  
+- **Campaign Engagement**: Campaign acceptance per region  
+- **Product Preferences**: Sales by category  
+- **Channel Interactions**: Web, in-store, catalog, and deal participation  
+- **Customer Behavior**: Days since last purchase, number of complaints
 
-To view the dashboard:
-1. Navigate to the relevant section using the country tabs at the top.
-2. Hover over any chart to see detailed data points and metrics.
-3. Use the filter options to customize the data display according to specific criteria.
+---
 
-## Marketing dasboard
+## 🛠️ Tools Used  
+- **Power BI**: For building visual and interactive dashboards  
+- **Power Query**: For cleaning, merging, and transforming data  
+- **Python**: Used to validate, preprocess, and audit dataset fields  
+- **Excel**: For exploratory data checks, labeling, and column audits  
+
+---
+
+## 📊 Dashboard Preview  
 ![image](https://github.com/user-attachments/assets/efbb1d38-eabf-4d5c-a49f-2e0937950616)
 
 
 
-## Questions and request from the Marketing Department
+---
 
-1. **How are different product categories performing across our global markets, and where should we focus our inventory investments?**
-2. **What insights can we gather from the marketing channels about consumer purchasing behavior, and how can we optimize these channels for better reach and engagement?**
-3. **How do income and spending patterns across different educational levels affect our pricing and promotional strategies?**
-4. **Given the high response rates to our most recent campaign, can we identify any trends or patterns that may explain why this campaign was particularly effective?**
-5. **Does marital status influence the effectiveness of our marketing campaigns, and if so, how can we tailor our strategies to different marital demographics?**
-6. **What do the trends in the 'Number of days since customer's last purchase' indicate about our customer retention efforts?**
-7. **How should we address the areas generating the highest number of customer complaints to improve satisfaction and reduce churn?**
-8. **Considering the demographic data on households with children and teenagers, how can our product offerings and marketing messages be adjusted to appeal to family-oriented consumers?**
+## 📌 Key Dashboard Sections  
 
-## Answers and Recommendations
+### 1. **📦 Product Category Performance**  
+- Most popular categories: **Meat Products** and **Wine**  
+- **Fish Products** and **Sweet Products** follow behind  
+- Product preference insights help shape inventory and promotional strategies by region  
 
-1. **Product Categories**: The 'Product Categories' analysis shows that 'Meat Products' and 'Wines' have the highest sales volume. We should consider increasing inventory in these categories, particularly in regions where sales are booming, and evaluate supply chain efficiencies to support this growth.
+---
 
-2. **Optimizing Marketing Channels**: Analysis reveals that 'web purchases' and 'store purchases' are highly effective. Enhancing our online presence with targeted digital advertising and improving in-store experiences could further boost these channels. 
+### 2. **📣 Marketing Channel Analysis**  
+- Top performing channels: **Web Purchases** and **Store Purchases**  
+- Catalog and deal-based channels show lower interaction  
+- Suggests enhancing digital strategy and improving in-store campaigns  
 
-3. **Pricing and Promotional Strategies**: Customers with higher educational levels tend to spend more, suggesting room for premium pricing strategies within this group. Promotions can be tailored to align with the educational demographics that show higher average spending.
+---
 
-4. **Understanding Campaign Effectiveness**: The recent campaign's success, as indicated by high response rates, suggests it resonated well with our target audience. While the dashboard doesn't detail the individual elements contributing to this success, the high acceptance rate alone points to a favorable reception. To understand why this campaign outperformed others, we could conduct a deeper dive into customer feedback and engagement metrics during the campaign period. Additionally, comparing the characteristics of this campaign (such as the offer type, communication channels used, and customer segments targeted) with less successful campaigns could help identify effective strategies and tactics. Implementing A/B testing in future campaigns can also provide more concrete data on what resonates with our audience.
+### 3. **📚 Education vs Income & Spending**  
+- Strong correlation between **higher education levels** and **increased spending**  
+- PhD and Master’s degree holders show highest average income  
+- Enables premium pricing strategies for select customer segments  
 
-5. **Marital Status and Marketing Effectiveness**: Married and cohabitating customers are more responsive to our campaigns. Creating content that resonates with family and partnership values could enhance engagement rates among these groups.
+---
 
-6. **Customer Retention Insights**: The 'Number of days since customer's last purchase' graph shows variability across education levels. Implementing loyalty programs and regular engagement tactics like newsletters or exclusive offers could help shorten these purchase intervals.
+### 4. **🎯 Campaign Response Rates**  
+- **Campaign 4** yielded the highest response rate (33.37%)  
+- **Campaign 2** underperformed (3%)  
+- Opportunity to replicate successful elements of Campaign 4 and reevaluate strategy for low-response campaigns  
 
-7. **Addressing Customer Complaints**: High complaint rates in specific areas may indicate product or service issues. Focused group discussions or surveys could help identify the root causes, allowing us to address these effectively.
+---
 
-8. **Marketing to Families**: The data on households with children and teenagers suggests a significant market segment. Developing family-friendly product bundles and marketing these through channels frequented by parents, such as family blogs or social media platforms, could capture more of this market.
+### 5. **💍 Marital Status Breakdown**  
+- Majority of customers are **Married** or **Cohabitating**  
+- These groups also show higher campaign responsiveness  
+- Content and messaging should reflect family, stability, and shared values  
 
+---
 
+### 6. **📅 Recency & Retention**  
+- Number of days since last purchase varies across segments  
+- Implement loyalty programs and personalized offers to increase frequency  
+- Average recency is around **49 days**, a gap that can be reduced with targeted outreach  
 
+---
 
-## Contact Information
+### 7. **🚨 Customer Complaints**  
+- Complaints are disproportionately higher among some education levels  
+- Indicates areas for service improvement or misaligned customer expectations  
+- Recommend qualitative feedback collection (e.g., surveys or NPS follow-ups)  
 
-For more information, please contact [PhilDinh](phildinhdata@gmail.com).
+---
+
+### 8. **👨‍👩‍👧‍👦 Family-Oriented Segmentation**  
+- Many customers have children and teens at home  
+- Great opportunity to launch **family-focused products**, **bundles**, or **promotions**  
+- Target platforms like parenting blogs or family-oriented social media groups
+
+---
+
+## ✅ Strategic Recommendations  
+
+- **Invest in top product categories** with high global sales (Meat, Wine)  
+- **Enhance digital and in-store marketing strategies** for higher engagement  
+- **Tailor offers by education level** to match spending behaviors  
+- **Segment campaigns by marital and family status** to increase resonance  
+- **Address complaint hotspots** and evaluate root causes  
+- **Build retention plans** around reducing purchase gaps and rewarding loyalty  
+- **Continue regional testing** and performance comparisons to adjust strategy per market  
+
+---
+
+## 📄 License  
+Specify the license under which the project is released.
+
+---
+
+## 📬 Contact  
+For more information, collaboration, or feedback:  
+**Phil Dinh**  
+📧 [phildinhdata@gmail.com](mailto:phildinhdata@gmail.com)
