@@ -1,96 +1,128 @@
-# Pizza Insights with Power BI
+# 🍕 Pizza Sales Analytics Dashboard
 
-## Description
+## 📌 Overview  
+The **Pizza Sales Analytics Dashboard** was developed to uncover actionable insights across four key business areas: sales trends, operational performance, product popularity, and price sensitivity. Built with **Power BI**, this report supports data-driven decisions around marketing, pricing strategy, staffing optimization, and inventory management.
 
-This project utilizes Power BI to visualize a dataset of pizza sales, aiming to uncover trends in sales, employee performance, and product performance.
+Through interactive visualizations, this dashboard allows business owners and managers to quickly identify which products perform best, when their stores are busiest, and how pricing and size affect revenue.
 
-## Tools Used
+---
 
-- **Power BI**: Used for visualization.
-- **Power Query**: Employed for data cleaning and constructing a snowflake schema.
+## 🎯 Purpose  
+This dashboard was built in response to business questions from stakeholders, including:
 
-## Dataset
+- How do sales fluctuate over time?
+- When are the busiest and slowest periods for operations?
+- Which pizzas, categories, and sizes generate the most revenue?
+- How can pricing strategies be optimized to increase profit?
 
-- `Fact_Order`
-- `Dim_Pizza`
-- `Dim_Date`
-- `Dim_Time`
+---
 
-## Questions from Stakeholders
+## 🧩 Dataset & Model  
+This project uses a **snowflake schema** consisting of:
 
-1. **Sales Trend Analysis**: Analyze sales trends over time to identify patterns, seasonal variations, or anomalies. This analysis should cover daily, weekly, and monthly sales performance, including year-over-year changes to gauge growth or decline.
-2. **Working Performance**: Determine which hours and days of the year yield the highest pizza sales.
-3. **Product Performance**: Assess the performance of different pizza categories and specific pizzas within those categories by quantity sold and revenue generated. Identify top-selling and underperforming products to adjust the product offering.
-4. **Price Sensitivity Analysis**: Examine which pizza sizes are popular and most profitable. Based on this analysis, are there pricing strategies that could be implemented to increase profits? Provide any recommendations for marketing strategies.
+- `Fact_Order`: sales transactions, revenue, size, and time  
+- `Dim_Pizza`: pizza name, category, size, price  
+- `Dim_Date`: date-level attributes (month, quarter, weekday, etc.)  
+- `Dim_Time`: hour-level time tracking for peak-hour analysis  
 
-## Sale trend analysis
-![image](https://github.com/user-attachments/assets/c3ff72bc-5d50-4870-9ef6-57c3175078e7)
+---
 
+## 🛠️ Tools Used  
+- **Power BI**: Main dashboard development and DAX measures  
+- **Power Query**: Data shaping, cleaning, schema building  
+- **Excel**: Data auditing, validation  
+- **DAX**: Used to calculate KPIs like average order value, heatmaps, and price elasticity indicators  
 
-- The sales trend dashboard indicates that while the total number of orders increased in Quarter 3, revenue did not follow the same trend. In detail, August shows a higher order volume compared to November, yet this is not reflected in the revenue, which is higher in November. 
+---
 
-- Specifically, August depicted a lower pizza quantity than November, with the majority being Large-sized, despite having the smallest average order value in the period. Conversely, the Large-sized pizzas generated more value than Medium and Small sizes, explaining the significant differences in the sales trends.
-- Additionally, major holidays like Black Friday and Thanksgiving in November lead to increased purchases, as evidenced by the average quantity per order being 2.3.
-
-###Recommendation:
-
-- To boost revenue, it is crucial to increase the average order value. Encouraging customers to spend more by upselling additional products, such as drinks and snacks, could be effective. 
-
-- As the data indicates, Extra Large-sized pizzas generate the most revenue. Therefore, focusing sales efforts on upsizing between Large and Extra Large pizzas could substantially increase profits.
-
-## Working Performance
-![image](https://github.com/user-attachments/assets/25c0b2db-2869-4edf-bec2-22fcabe07547)
-
-
-- The visualizations reveal that Friday achieves the highest totals in both orders and revenue, while Sunday records the opposite. Peak hours are observed during lunchtime, between 12 PM and 1 PM, which is the busiest time, and dinner time occurs from 5 PM to 7 PM.
-
-- Additionally, Friday and Saturday show roughly double the total orders compared to other days in the 8 PM to 10 PM slot.
-Furthermore, the time slots from 9 AM to 10 AM and from 11 PM exhibit very low order quantities, contributing minimally to the store's revenue.
-
-### Recommendations:
-![image](https://github.com/user-attachments/assets/6744c546-6099-4b39-bb03-51b5061a2438)
-
-- Proper staff allocation is essential to ensure timely production and customer service satisfaction, especially on Fridays and Saturdays from 8 PM to 10 PM.
-- Additionally, special attention should be paid to holidays and special days to ensure timely service and efficient production.
-- Consider adjusting the store's operating hours, opening at 11 AM and closing at 10 PM, to maximize profit by reducing unproductive time and the associated need for extra wages after 10 PM. 
-- Training staff with ability to handle multiple role to adapt heavy works in peak hours.
-
-## Product Performance
-![image](https://github.com/user-attachments/assets/eb78757c-fd2b-412f-8bb0-3b5d81f05855)
-
-
-- According to the product performance visualizations, the Classic category exhibits the highest volume of orders, with the Classic Deluxe pizza demonstrating the most significant order volume. The least number of orders and revenue is associated with the Brie Carrer pizza from the Supreme category, while the Thai Chicken pizza from the Chicken category generates the most revenue. 
-- Notably, the total quantity of Medium-sized pizzas sold is higher than that of Small-sized ones by 8.3%, yet there is a substantial difference in revenue of approximately 40% between the two sizes. Moreover, the Large-sized pizzas account for the majority of the revenue.
-
-## Price Sensitivity Analysis
-![image](https://github.com/user-attachments/assets/19db56b0-2484-45da-b7df-53931f5167f7)
-![image](https://github.com/user-attachments/assets/79511fda-cdc8-404b-b65a-3ff3e85382e4)
+## 📊 Dashboard Visuals  
+![image](https://github.com/user-attachments/assets/48dcb581-38ac-45f3-9018-0a164fd9098f)
+![image](https://github.com/user-attachments/assets/6f4e951c-8b1f-4fdb-b5a0-b10985963fd6)
+![image](https://github.com/user-attachments/assets/0117afc8-4c02-4516-bf6a-71ad2d9abf0e)
 
 
 
-###Categories, size and ingredient
 
-- Tables (3) and (1) show that pizzas from the Classic category have the highest sales quantities, with the small, medium, and extra-large sizes being particularly popular. Additionally, the Veggie pizza is the best seller in the large size category. With this data, the company can strategically stock ingredients and prepare pizza bases to meet customer demand.
-- Tables (1) and (2) reveal that the large size is the most popular and generates the most revenue for the company. While the extra-large size has the highest average revenue per item as per table (7), its sales are quite low. To boost the sales of the extra-large size, we could implement promotions and increase marketing efforts.
+---
 
-### Should we remove the Brie Carre Pizza?
-From table (6), the Brie Carre Pizza, available only in a small size, commands a high selling price—approximately double that of other pizzas—and contributes to better revenue compared to other small-sized options.
-### Price and AVG revenue for size and categories
-- Observing the small sizes in model (1), the Classic category ranks as the best-selling, closely followed by the Supreme category. However, model (4) indicates that the average revenue for Classic's small size is lower than the overall average for small sizes shown in model (7). Table (6) reveals that the selling price of the Classic category is the lowest among all categories, while the Supreme category's high average revenue is primarily due to the Brie Carre Pizza.
-- A potential solution is to increase the price of small-sized pizzas in the Classic category or to introduce a promotion where purchasing a Brie Carre Pizza could lead to a discount of 30-50% on a small-sized pizza from the Classic category.
-- For medium-sized pizzas, models (1) and (4) suggest a similar pattern to the small-sized Classic category, though the selling quantity among categories is not significantly different. Therefore, increasing the price for the Classic category's medium-sized pizzas could lead to higher profits.
-- Moving to the large sizes, model (1) shows that the Veggie category has the highest sales volume, but model (4) indicates that its average revenue is lower than the overall average for large sizes presented in model (7). Increasing the price of large-sized Veggie pizzas could be a beneficial strategy.
-- Conversely, the Supreme category's large-sized pizzas display a high price and average revenue according to models (4) and (5), yet the quantity sold is low as per model (1). Reducing the price might be an effective approach to increase sales.
-### In summary
-Increase the price of small and medium-sized pizzas in the Classic category.
-Raise the price of large-sized pizzas in the Veggie category.
-Lower the price of large-sized pizzas in the Supreme category.
-Offer a deal where purchasing a Brie Carre Pizza will grant a 30-50% discount on a small-sized pizza from the Classic category.
+## 📌 Key Dashboard Sections  
 
-## License
+### 1. 📈 **Sales Trend Analysis**  
+![image](https://github.com/user-attachments/assets/5daf900a-2197-4b5e-9b36-b98be5e8a979)
 
-Specify the license under which the project is released
+- **Total Orders**: 21,350 | **Total Revenue**: $817,860  
+- Highest monthly orders occurred in **July**, while **Quarter 3** had the highest order volume  
+- However, **Quarter 2** yielded the **highest revenue**, indicating pricing/size differences  
+- November showed higher revenue despite fewer orders, due to larger pizza sizes and seasonal boosts (Black Friday, Thanksgiving)
 
-## Contact Information
+> 📌 **Recommendation**: Focus on increasing average order value through upselling sides or drinks, and promoting high-margin large and extra-large pizzas.
 
-For further information, collaboration, or inquiries, feel free to contact [Phil Dinh](mailto:dinhthanhtrung2011@gmail.com).
+---
+
+### 2. ⏱️ **Working Hour & Day Performance**  
+![image](https://github.com/user-attachments/assets/7e2529c6-a6ab-4b0e-b493-9ab05c12e862)
+
+- **Friday** leads in both **order volume** and **revenue**  
+- **Peak hours**:  
+  - **Lunch rush**: 12 PM–1 PM  
+  - **Dinner surge**: 5 PM–7 PM  
+- **Evening orders** spike on **Fridays & Saturdays** between **8 PM–10 PM**  
+- Very low revenue hours: **9–10 AM** and post **10 PM**
+
+> 📌 **Recommendations**:  
+- Optimize staff scheduling during Friday/Saturday peak hours  
+- Consider adjusting business hours to **11 AM–10 PM**  
+- Cross-train staff to improve flexibility during high-demand hours
+
+---
+
+### 3. 🍕 **Product Performance**  
+![image](https://github.com/user-attachments/assets/d3696ce0-b520-40ac-a671-1269767b9e1d)
+
+- **Most ordered pizza**: *The Classic Deluxe Pizza*  
+- **Highest revenue pizza**: *The Thai Chicken Pizza*  
+- **Least performance (order + revenue)**: *The Brie Carre Pizza*  
+- **Top category by orders**: Classic  
+- **Top category by revenue %**: Chicken (27.27%), followed closely by Veggie and Supreme  
+- **Large-sized pizzas** dominate revenue (45.89%) despite not being the most ordered
+
+> 📌 **Insights**:  
+- Focus inventory and marketing efforts around top sellers (Classic & Chicken categories)  
+- Consider phasing out low performers or repackaging them with promos
+
+---
+
+### 4. 💰 **Price Sensitivity & Size Strategy**  
+![image](https://github.com/user-attachments/assets/10f374a0-0f69-4caf-bc36-dee9fcaaa48d)
+
+- **Large (L)** and **Medium (M)** sizes generate most of the revenue  
+- **XL pizzas** have highest average revenue per unit ($25.50) but low order volume  
+- **Brie Carre Pizza** (small size only) has low order count but above-average revenue per sale
+
+> 📌 **Recommendations**:  
+- **Increase** prices of Classic category’s small and medium sizes  
+- **Raise** the price of **large Veggie pizzas** to match value perception  
+- **Lower** price of large Supreme pizzas slightly to stimulate sales  
+- **Promote** Brie Carre Pizza via bundling deals (e.g., "Buy 1 Brie Carre, get 30–50% off any Classic small pizza")
+
+---
+
+## ✅ Summary of Recommendations  
+
+- 🛒 **Boost AOV**: Upsell drinks/sides and promote combo deals  
+- 🔥 **Capitalize on hot hours**: Staff up 12 PM–1 PM & 5 PM–7 PM, Fri–Sat  
+- 🧾 **Product mix shift**: Focus on high-margin SKUs (XL & L), phase out low performers  
+- 💸 **Adjust pricing**: Based on size, demand elasticity, and average revenue per pizza  
+- 📦 **Bundle promotions**: Incentivize purchase of underperforming but profitable SKUs  
+
+---
+
+## 📄 License  
+Specify the license under which the project is released.
+
+---
+
+## 📬 Contact  
+For more information or collaboration:  
+**Phil Dinh**  
+📧 [phildinhdata@gmail.com](mailto:phildinhdata@gmail.com)
