@@ -4,22 +4,30 @@
 
 ---
 
-## 📌 Project Overview
+### 📌 Project Overview
 This project analyzes workforce composition and employee exits across different brands, positions, and contract types. The dashboard helps identify high turnover areas and supports HR decision-making through rich visualizations and interactive reports.
+
+**📅 Project Duration:** 3 days (Assessment Window)  
+**🎨 Color Theme:** Based on company brand – Black, White, and Gray (Found the logo on Linkedln)
 
 ---
 
-## 🧩 Dataset Summary
+## 🧭 Project Timeline
 
-- **Total Active Staff**: 5,032  
-- **Total Terminated Employees**: 1,837 (Apr 2024 – Apr 2025)  
-- **Dimensions Used**:
-  - Date (Year, Month)
-  - Brand / Organization
-  - Contract Type
-  - Position Level
-  - Exit Reason (Grouped)
-  - Service Length (Binned)
+**Day 1:**
+- Received the dataset and assessment brief
+- Built 2 Power BI reports:
+  - **Workforce Overview Dashboard**
+  - **Termination Insights Dashboard**
+
+**Day 2:**
+- Conducted exploratory analysis to extract insights
+- Used **ChatGPT and Google Search** to support storytelling and identify strategic HR risks/opportunities
+
+**Day 3 (Presentation Day):**
+- Finalized all insights and visuals
+- Created a PowerPoint slide deck summarizing key findings
+- Delivered the presentation to stakeholders
 
 ---
 
