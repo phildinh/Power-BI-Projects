@@ -73,7 +73,7 @@ Based on the insights derived from the 2022–2023 dataset, here are high-level 
 ![image](https://github.com/user-attachments/assets/3c4bd3df-2bd2-4859-af0a-85e061f1d51f)
 
 In 2023, revenue peaked in *January*, followed by a sharp decline in *February* — the lowest point of the year. Subsequent spikes occurred in *May* and *August*, with revenue stabilizing from *September* to *December*. 
-In contrast, 2022 showed a more consistent trend from *January** to *October*, before declining in *November*.
+In contrast, 2022 showed a more consistent trend from *January* to *October*, before declining in *November*.
 
 By region, *Sydney* generated the most revenue in 2022, while *Melbourne* led in 2023.
 
@@ -88,31 +88,56 @@ Among individual products, *Soda* consistently ranked as a top contributor in bo
 ![image](https://github.com/user-attachments/assets/005e9cb9-1fbe-4f26-883f-d8f1d6820713)
 
 ### Key Observations:
-- **February** showed the steepest declines in both orders (-31.5%) and AOV (-12.3%), compounding revenue loss.
-- **March to July** saw steady recovery. **June and July** had the highest AOV ($145.60 and $136.28 respectively).
-- **November**’s revenue stability was maintained by a significant AOV increase (+30.9%) despite a drop in order volume.
+- **February** marked the lowest performance across both metrics: orders dropped **31.5%** and AOV fell to **$116.93 (-12.3%)**, resulting in the sharpest monthly revenue decline.
+- **March to July** showed steady recovery. **July** was particularly strong — it had one of the **highest order counts (140)** and also the **highest AOV ($145.60)**, contributing to a secondary revenue peak.
+- **November** had the **second-lowest order volume**, but revenue stayed relatively stable thanks to a **significant increase in AOV ($143.78, +30.9%)** — indicating customers placed fewer but higher-value orders.
 
 ### Recommendations:
-- Launch **volume-driving campaigns** in February and November to offset low order periods.
-- Use **high-AOV periods** for upselling, premium product promotions, or bundled offers.
-- Segment promotions based on AOV behavior — **value-based** messaging during peak months, **volume-based** during dips.
-
+- **Stabilize February** with early Q1 promotions or loyalty pushes to avoid simultaneous drops in both volume and value.
+- **Leverage high-AOV months** (like **July and November**) to introduce premium product bundles or upsell offers.
+- Use insights from **November’s high-AOV behavior** to build **holiday season strategies** that focus on value per customer, even if volume is lower.
+- Tailor marketing to monthly AOV patterns — deploy **basket-size incentives** during low-AOV periods and focus on **premium promotions** during high-AOV months.
 ---
 
 ## Part 7: Deep Dive – Product Category Breakdown
 
 ![image](https://github.com/user-attachments/assets/d7b406f3-a4c0-42ae-893d-cc3d62586bba)
 
-### Insights:
-- **Personal Care** led overall revenue performance with consistency and strong seasonal peaks.
-- **Household** spiked notably in March, July, and December, indicating high seasonal demand.
-- **Beverages** showed the most volatility (e.g., -63.9% in February, +102% in March), likely driven by promotion timing.
-- **Snacks** consistently underperformed and contributed just **6% of revenue in May**.
+### Key Observations:
+In 2023, January recorded the highest monthly revenue, driven by increases across nearly all product categories — particularly Personal Care. The only exception was Household, which declined slightly.
+
+In contrast, February experienced the lowest revenue of the year, showing a steep 39.9% drop from January. This was primarily due to sharp declines across all major categories, especially:
+
+- Beverages: ↓ 63.9%  
+- Dairy: ↓ 42.4%  
+- Snacks: ↓ 47.0%
+
+Revenue recovered strongly in March, increasing by 42% compared to February, mainly due to:
+
+- Beverages: ↑ 102%  
+- Household: ↑ 81.6%
+
+From March through July, revenue showed a general upward trend, peaking with a spike in May, despite Snacks contributing only 6% of total revenue that month — indicating other categories (especially Beverages and Personal Care) drove the growth.
+
+After July, revenue dipped slightly in August, then remained relatively stable through November, before picking up again in December — likely reflecting end-of-year consumer activity and holiday demand.
 
 ### Recommendations:
-- **Stabilize Beverages** with more evenly distributed promotions across the year.
-- **Prioritize Personal Care and Household** during peak months — plan stock, shelf space, and ads accordingly.
-- **Reposition or restructure the Snacks category**, possibly by bundling or refining product selection.
+
+- **Reinforce Inventory and Promotions Before February:**  
+  The steep February drop across all categories suggests systemic weaknesses in campaign timing or stock availability. Launch **bridge promotions or loyalty offers in late January** to extend demand and reduce early Q1 drop-offs.
+
+- **Optimize Beverages Promotion Strategy:**  
+  Beverages showed both extreme drops and major spikes, indicating sensitivity to promotion timing. Distribute campaigns more evenly across the year to **smooth volatility** and maintain customer interest consistently.
+
+- **Prioritize Personal Care and Household During Key Quarters:**  
+  These two categories showed dependable contributions and seasonal peaks. Allocate **more promotional budget and shelf space** in Q2 and Q4 when performance tends to climb.
+
+- **Re-evaluate Snack Product Strategy:**  
+  With Snacks contributing only 6% of revenue in May and showing weak performance throughout, conduct a **SKU-level review**. Consider bundling, price repositioning, or even discontinuing underperforming lines.
+
+- **Plan for Year-End Demand Early:**  
+  Revenue rebound in December was likely driven by seasonal purchases. Begin **holiday planning by October**, focusing on categories like Personal Care and Household that align with gifting and seasonal household needs.
+
 
 ---
 
