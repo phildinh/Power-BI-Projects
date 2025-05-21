@@ -72,9 +72,14 @@ Based on the insights derived from the 2022–2023 dataset, here are high-level 
 
 ![image](https://github.com/user-attachments/assets/3c4bd3df-2bd2-4859-af0a-85e061f1d51f)
 
-In 2023, revenue peaked in **January**, declined sharply in **February (-39.9%)**, and recovered in **March and May**, driven by strong performance from Beverages and Household. From **June to November**, revenue remained relatively stable before rising again in **December**, likely due to holiday-driven demand.
+In 2023, revenue peaked in *January*, followed by a sharp decline in *February* — the lowest point of the year. Subsequent spikes occurred in *May* and *August*, with revenue stabilizing from *September* to *December*. 
+In contrast, 2022 showed a more consistent trend from *January** to *October*, before declining in *November*.
 
-Compared to 2022, which showed stable performance from January to October with a decline in November, 2023 demonstrated more volatility but ended with an overall revenue increase of approximately **3% YoY**.
+By region, *Sydney* generated the most revenue in 2022, while *Melbourne* led in 2023.
+
+At the category level, *Personal Care* was the top-performing segment in 2023, whereas *Snacks* led in 2022.
+
+Among individual products, *Soda* consistently ranked as a top contributor in both years. The lowest-performing products were *Cheese* in 2022 and *Nuts Mix* in 2023.
 
 ---
 
