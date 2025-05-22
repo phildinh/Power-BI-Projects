@@ -1,99 +1,147 @@
-# 📊 Market Research Analytics Dashboard
+# Campaign Performance Dashboard - Power BI Project
 
-## 📌 Overview  
-The **Market Research Analytics Dashboard** delivers comprehensive insights into the performance of six marketing campaigns by analyzing sales trends, product preferences, customer demographics, and key purchase drivers. Built in **Power BI**, the dashboard empowers marketing and business leaders to make informed decisions around targeting, campaign optimization, and future strategy.
+## Part 1: Project Overview & Business Goal
 
-The report focuses on identifying which campaigns succeeded, who the customers are, and what factors influence purchase decisions—providing a clear roadmap for improving marketing effectiveness and driving sales growth.
+The company launched 6 marketing campaigns aimed at promoting different product categories through multiple platforms and customer segments.
+
+** Business Goal:**
+- Evaluate and compare the performance of each campaign to inform future marketing decisions.
+
+---
+## Part 2: Dataset Description
+
+The dataset contains transaction-level data across six marketing campaigns:
+
+- **Customer Info:** Age, education, income, marital status, web visits, household composition  
+- **Campaign Metadata:** Campaign IDs and acceptance status  
+- **Product Info:** Categories and quantities  
+- **Sales Data:** Revenue, platforms (store, web, catalog, deal)
+
+**Data Model:** Star schema for optimized cross-filtering and interactivity.
+
 
 ---
 
-## 🎯 Purpose  
-This dashboard was developed in response to stakeholder demand for a performance analysis of recent marketing efforts, aiming to address key business questions:
+## Part 3: Metrics & Dimensions
 
-- Which campaigns performed best in terms of purchases and revenue?
-- Which products were most preferred across different campaigns?
-- Who are our customers, and how do their demographics affect buying behavior?
-- What factors drive purchase decisions across segments?
+**North Star Metric:**  
+- Overall Campaign Performance
 
----
+**Supporting Metrics:**  
+- Total Sales Revenue  
+- Number of Customers  
+- Average Income  
 
-## 🧩 Dataset  
-The dataset consists of transaction-level data across six marketing campaigns and includes:
+**Key Dimensions:**  
+- Product Categories (Wine, Meat, Baked Goods, etc.)  
+- Sales Platforms (Store, Web, Catalog, Deal)  
+- Customer Demographics (Age, Marital Status, Income, etc.)
 
-- **Customer data**: demographics, education, marital status, income, and web activity  
-- **Campaign metadata**: campaign IDs and accepted campaign labels  
-- **Product info**: categories such as wine, meat, baked goods, sweets, etc.  
-- **Sales data**: product quantity, revenue, and platform used (in-store, web, etc.)
-
-The underlying data model follows a **star schema**, supporting one-to-many relationships and cross-filtering for interactive visual analysis.
-
----
-
-## 🛠️ Tools Used  
-- **Power BI**: For developing visual reports and calculating dynamic KPIs  
-- **Power Query**: Used to clean, transform, and prepare the data model  
-- **DAX**: For calculated columns, measures, and key influencer analytics  
-- **PowerPoint**: To develop branded color schemes and report layout
+**Analysis Objectives:**  
+- Dataset lacks date columns (one row = one transaction)  
+- Focus analysis only on campaign recipients  
+- Slice campaign performance by key dimensions  
+- Use Key Influencer analysis to guide marketing strategy
 
 ---
 
-## 📊 Dashboards  
-![image](https://github.com/user-attachments/assets/d93c3ab5-0abe-4fda-9ed7-bc58599b9f88)
+## Part 4: Tools Used
 
-
-### Dashboard Breakdowns  
-![image](https://github.com/user-attachments/assets/56217787-0fbf-4e54-850e-f444031dfca6)
-![image](https://github.com/user-attachments/assets/5560a7ff-1cfa-4b5b-8f33-9afa45016113)
-![image](https://github.com/user-attachments/assets/312c5704-a22d-449f-9412-7d8746210c78)
+- **Power BI:** For dashboard development and interactivity  
+- **Power Query:** For data transformation and ETL  
+- **DAX:** For calculated measures and Key Influencer visuals  
+- **PowerPoint:** For layout, branding, and design consistency
 
 ---
 
-## 📌 Key Dashboard Sections  
+## Recommendations
 
-### 1. **📈 Campaign Performance**  
-- **Campaign 6** outperformed all others with **334 purchases** and generated the highest sales revenue (~$330K).  
-- **Wine** emerged as the dominant product category across all campaigns.  
-- **In-store purchases** led by a wide margin, highlighting strong brick-and-mortar engagement.  
+- **Targeting:** Focus on older, married, high-income customers with no children  
+- **Product Strategy:** Lead with wine and meat for high-impact campaigns  
+- **Platform Strategy:** Prioritize store and web; optimize catalog reach  
+- **Data-Driven Action:** Use key influencers to refine audience targeting and budget allocation
+ 
+---
 
-> Campaign 6’s success is linked to strong alignment between product strategy (wine-focused) and platform use (in-store dominance), suggesting that high-value products perform better with face-to-face engagement.
+##  Part 5: Executive Summary
+
+- **Top Campaign:** Campaign 6 (334 purchases, $0.33M revenue)  
+- **Weakest Campaign:** Campaign 2 (30 purchases, $0.04M revenue)  
+- **Best-Selling Product:** Wine ($0.33M), followed by Meat ($0.17M)  
+- **Top Channel:** Store (4,022 purchases); Discount purchases lowest  
+- **Customer Profile:** Mostly married, college graduates, no children at home, avg income ~$61K  
 
 ---
 
-### 2. **🧍‍♂️ Buyer Composition**  
-- The majority of campaign participants are **married** (864) and hold **college/university degrees** (1127).  
-- The average customer **income** is approximately **$52,247** and the **average age** is **56.2**.  
-- Product preference shifts by **age group**:  
-  - Older customers prefer wine.  
-  - Meat purchases decline as age increases.  
+##  Part 6: Campaign Performance Analysis – Products & Platforms
+![image](https://github.com/user-attachments/assets/19ef5084-a4a0-4960-83ad-f7162e384c08)
 
-> These insights provide clear direction for demographic-based targeting and tailored marketing messaging.
 
----
+**Campaign 6:**
+- 334 purchases, $0.33M revenue  
+- Top products: Wine (51%), Meat (30%)  
+- Top platform: Store (34%)
 
-### 3. **📌 Purchase Drivers (Key Influencers)**  
-- Customers with **income over $60,585** are **7.8x more likely** to accept Campaign 1.  
-- **Web engagement** (less than 5 visits/month) and **marital status** also affect campaign acceptance.  
-- Total sales decrease when **income drops below $40,049**, or customers have 2+ kids or teens at home.
+**Campaign 5:**
+- 162 purchases, $0.26M revenue  
+- Wine accounted for 54%  
+- Strong web and store presence
 
-> The **Key Influencers** visual enables the marketing team to isolate the strongest predictors of sales and campaign adoption.
+**Campaign 2:**
+- Weakest campaign (30 purchases, $0.04M)  
+- 69% were wine purchases  
+- Store dominant (41%)
 
----
-
-## ✅ Recommendations  
-- Focus future campaigns on the **50–80 age group**, especially for wine and baked goods promotions.  
-- Prioritize **in-store promotions**, which drive the highest number of conversions.  
-- Leverage Campaign 6’s strategy as a model for future launches—emphasizing wine, store presence, and demographic targeting.  
-- Use the **Key Influencers** visuals to fine-tune segmentation strategies and predictive modeling.  
-- Continue tracking buyer behaviors to adapt campaigns and personalize offers more effectively.
+**📌 Recommendations:**
+- Allocate more budget to Campaigns 5 and 6  
+- Focus on wine and meat  
+- Prioritize in-store and web platforms for performance  
+- Reassess product-platform fit for Campaign 2
 
 ---
 
-## 📄 License  
-Specify the license under which the project is released.
+##  Part 7: Campaign Analysis – Customer Segments
+
+### Overall View:
+![image](https://github.com/user-attachments/assets/1529e634-94b6-42c1-804a-9626e4e2b715)
+
+- 608 customers accpeted campaigns, average income ~$61.7K, avg age 56.7  
+- Most are married, university graduates, and child-free  
+- Wine preference rises with age; meat declines
+
+### Campaign 6:
+![image](https://github.com/user-attachments/assets/448365fe-8b53-40c0-b9b1-d21f1c20b5ad)
+
+- 334 customers, income ~$60.2K, avg age 55.6  
+- 66% no kids, 71% no teens  
+- Wine-heavy purchases
+
+**Recommendation:** Continue targeting older, child-free segments with wine-focused messaging.
+
+### Campaign 5:
+![image](https://github.com/user-attachments/assets/48cd77d6-fa34-4333-8f13-18a421a7e863)
+
+- 162 customers, income ~$82.3K, avg age 55.5  
+- Highest income group, diverse education  
+- Strong platform mix
+
+**Recommendation:** Tailor to high-income households. Use catalog/web to push premium offers.
+
+### Campaign 1:
+![image](https://github.com/user-attachments/assets/84390564-c7c4-4f7d-9566-e85572cff882)
+
+- 144 customers, income ~$78.8K, avg age 56.5  
+- Strong discount engagement  
+- Balanced customer base
+
+**Recommendation:** Use value-based messaging and bundled offers for price-sensitive buyers.
 
 ---
 
-## 📬 Contact  
-For more information or collaboration:  
-**Phil Dinh**  
-📧 [phildinhdata@gmail.com](mailto:phildinhdata@gmail.com)
+##  Part 8: Key Influencer Insights
+![image](https://github.com/user-attachments/assets/47617973-4eaa-4dd5-a2b4-4291e9de95d5)
+
+- Pick the campaign, filter the products and see the recommendations from Power BI AI.
+
+---
+
