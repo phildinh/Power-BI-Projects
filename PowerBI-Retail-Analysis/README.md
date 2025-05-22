@@ -72,7 +72,7 @@ Based on the insights derived from the 2022–2023 dataset, here are high-level 
 
 ![image](https://github.com/user-attachments/assets/3c4bd3df-2bd2-4859-af0a-85e061f1d51f)
 
-In 2023, revenue peaked in *January*, followed by a sharp decline in *February* — the lowest point of the year. Subsequent spikes occurred in *May* and *August*, with revenue stabilizing from *September* to *December*. 
+In 2023, revenue peaked in *January*, followed by a sharp decline in *February* — the lowest point of the year. Subsequent spikes occurred in *May* and *August*, then stabilizing  to *December*. 
 In contrast, 2022 showed a more consistent trend from *January* to *October*, before declining in *November*.
 
 By region, *Sydney* generated the most revenue in 2022, while *Melbourne* led in 2023.
