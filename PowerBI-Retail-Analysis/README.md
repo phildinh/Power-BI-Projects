@@ -85,7 +85,7 @@ Among individual products, *Soda* consistently ranked as a top contributor in bo
 
 ## Part 6: Orders and AOV Performance
 
-![image](https://github.com/user-attachments/assets/005e9cb9-1fbe-4f26-883f-d8f1d6820713)
+![image](https://github.com/user-attachments/assets/d9bdca5b-889b-4236-a33e-2e348f6200bd)
 
 ### Key Observations:
 - **February** marked the lowest performance across both metrics: orders dropped **31.5%** and AOV fell to **$116.93 (-12.3%)**, resulting in the sharpest monthly revenue decline.
