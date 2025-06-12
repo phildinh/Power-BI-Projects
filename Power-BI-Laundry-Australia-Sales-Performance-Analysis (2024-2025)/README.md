@@ -115,6 +115,7 @@ While growth is positive, it's uneven across cities and categories.
 ---
 
 ## 7. Root-Cause Analysis – Sydney Underperformance
+- **Dashboard 4**: Root-cause breakdown for Sydney  
 ![image](https://github.com/user-attachments/assets/31498095-c3ef-495f-9623-72beb2eaf56b)
 
 - **City YoY Revenue**: –0.62%  
@@ -132,40 +133,81 @@ Reinvest in promotions, adjust product mix, and troubleshoot execution issues in
 
 ---
 
-## 8. Business Question 1: Revenue Volatility Across 2024–2025
+## 8. Deep-Dive Dashboard Exploration (Section B Overview)
 
-### Root Causes:
-- **Q2 2025 Dip (March–April)**:  
-  - All locations and cities declined >5% YoY  
-  - Categories like Liquid, Soaker, Sanitiser fell 5–7%  
-- **May Spike (+25.29%)**:  
-  - Bounce-back across all dimensions  
-  - Units sold surged +25%, revenue growth driven by Fabric Refresher and Sheets
+Section B consists of five dashboards designed for root-cause and time-series exploration. These provide deeper insight into what’s driving volatility and product/category shifts.
 
-### ✅ Recommendation:
-Plan targeted recovery campaigns before Q2. Forecast seasonal risks earlier using trend data.
+- **Dashboard 5**: Overall revenue and unit trend (MoM, 2024–2025)
+![image](https://github.com/user-attachments/assets/31e913f8-1cc3-46c4-b9b1-de5567b52b06)
 
-📎 *Attach Dashboards 5, 6, 7, 8*
+- **Dashboard 6**: Location-based monthly share and YoY performance
+![image](https://github.com/user-attachments/assets/d0af25c0-71fa-4b5e-95c8-16765c74b5c3)
+
+- **Dashboard 7**: City-based monthly share and YoY performance
+![image](https://github.com/user-attachments/assets/f5f7c8b3-ba0b-48cf-8986-71b80e0a5dc7)
+
+- **Dashboard 8/9**: Category-level trend, volume share, and YoY comparisons
+![image](https://github.com/user-attachments/assets/1cf59ab9-bdb8-47be-9f37-5b4fce29abdc)
+
+
+These dashboards create a layered view — starting with the macro revenue curve, then slicing by location, city, and product category to explain specific shifts.
 
 ---
 
-## 9. Business Question 2: Influential Dimensions of Growth & Contraction
+## 9. Business Question 1: What explains the revenue volatility across 2024–2025?
 
-### Key Dimensions:
-- **Product Category**:  
-  - Growth: Fabric Refresher, Sheets  
-  - Decline: Sanitiser, Soaker  
-- **City**:  
-  - Growth: Darwin, Adelaide  
-  - Decline: Sydney, Melbourne  
-- **Store Type**:  
-  - Strongest: ALDI, Woolworths  
-  - Weakest: Coles  
+Dashboard 5 highlights a major **revenue dip in March–April** and a **sharp rebound in May 2025**. To explain:
+
+### 📉 March–April Declines:
+- Revenue fell across **all store locations** (Dashboard 6):  
+  - CBD: –6.58%  
+  - Commercial: –6.05%  
+  - Residential: –5.61%
+- Simultaneous declines in **major cities** (Dashboard 7):  
+  - Sydney: –7.82%  
+  - Melbourne: –7.25%  
+  - Adelaide: –6.00%
+- **Product category YoY drops** (Dashboard 8):  
+  - Laundry Liquid: –5.81%  
+  - Soaker: –5.67%  
+  - Sanitiser: –7.18%
+
+### 📈 May Rebound Drivers:
+- Revenue and units sold rebounded sharply:  
+  - +25.29% MoM revenue  
+  - +25.06% MoM units sold
+- Volume-driven recovery seen across **Fabric Refresher**, **Sheets**, and **Softener**  
+- Every city and location saw neutral or positive YoY growth in May
 
 ### ✅ Recommendation:
-Expand winning SKUs in high-growth cities. Realign inventory and promotion strategy for declining formats.
+Develop early-warning alerts based on seasonal trend patterns and past volatility. Design a Q2-specific promotional playbook, launching campaigns and adjusting inventory by late Q1 to protect against multi-dimensional slowdowns. Sustain May’s momentum by mirroring stock and pricing strategies.
 
-📎 *Attach Dashboards 6, 7, 8, 9*
+---
+
+## 10. Business Question 2: Which dimensions most influenced growth and contraction?
+
+Several dimensions contributed directly to both revenue growth and contraction across the reporting period.
+
+### 📊 Key Contributors & Drivers:
+
+- **Product Categories (Dashboard 8/9):**  
+  - **Growth**: Fabric Refresher, Laundry Sheets (esp. July–Sep)  
+  - **Decline**: Sanitiser, Soaker, Stain Remover (notable dip Mar–Apr)
+
+- **Cities (Dashboard 7):**  
+  - **Growth Drivers**: Darwin, Adelaide, Perth  
+  - **Contraction**: Sydney and Melbourne
+
+- **Locations (Dashboard 6):**  
+  - Commercial and Residential zones showed higher resilience and positive growth  
+  - CBD and Suburban lagged behind across multiple months
+
+- **Retail Chains / Store Level:**  
+  - **Positive**: Woolworths and ALDI stores outperformed in both revenue and inventory efficiency  
+  - **Negative**: Coles branches showed multiple cases of negative growth and stockouts
+
+### ✅ Recommendation:
+Prioritize resources (marketing, inventory, store training) in proven growth areas like Fabric Refresher, Residential/Commercial locations, and outperforming cities. For Coles and Sydney/Melbourne, design pilot programs for localized campaigns, optimized pricing, and replenishment logic. Monitor MoM metrics closely to catch shifts early.
 
 ---
 
