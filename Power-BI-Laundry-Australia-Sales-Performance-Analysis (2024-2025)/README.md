@@ -8,8 +8,10 @@
 5. Client-Facing Dashboards (Section A)  
 6. Executive Summary for Stakeholders (Section A)  
 7. Root-Cause Analysis – Sydney Underperformance  
-8. Business Question 1: Revenue Volatility Across 2024–2025  
-9. Business Question 2: Influential Dimensions of Growth & Contraction  
+8. Deep-Dive Dashboard Exploration (Section B Overview)  
+9. Business Question 1: Revenue Volatility Across 2024–2025  
+10. Business Question 2: Influential Dimensions of Growth & Contraction  
+
 
 ---
 
@@ -118,18 +120,45 @@ While growth is positive, it's uneven across cities and categories.
 - **Dashboard 4**: Root-cause breakdown for Sydney  
 ![image](https://github.com/user-attachments/assets/31498095-c3ef-495f-9623-72beb2eaf56b)
 
-- **City YoY Revenue**: –0.62%  
-- **By Location**:  
-  - CBD: –0.64%, Suburban: –0.54%  
-- **By Store**:  
-  - Coles Store 41: –3.33%, IGA Store 4: –0.94%  
-- **Categories Driving Decline**:  
-  - Soaker: –7.84%, Sanitiser: –1.96%, Stain Remover: –4.10%  
-- **Worst Products (YoY)**:  
-  - Lysol Sanitiser: –9.17%, Preen Remover: –8.76%, PHL Soaker: –7.84%
+Despite national revenue growing +1.46% YoY, Sydney recorded a **–0.62% YoY revenue decline**, making it the only major city in negative territory. The decline is not isolated, but structural — spread across locations, stores, and product categories.
+
+### 📍 Location-Level Analysis
+- **CBD**: –0.64% revenue, –0.24% units sold  
+- **Suburban**: –0.54% revenue, –0.66% units sold  
+→ Declines are consistent across both store location types, indicating market-wide weakness in Sydney.
+
+### 🏪 Store-Level Analysis
+- **Coles Store 41**: –3.33% revenue, –2.66% units  
+- **IGA Store 4**: –0.94% revenue, –0.12% units  
+- Two Woolworths stores also declined slightly (–0.20% to –0.54%)  
+- Only one Woolworths location posted positive growth: **+2.00% revenue, +2.66% units**  
+→ Coles Store 41 is the single largest contributor to the city’s underperformance.
+
+### 🧺 Category-Level Performance in Sydney
+- **Underperformers in Units Sold**:  
+  - **Laundry Soaker**: –7.84%  
+  - **Stain Remover**: –4.10%  
+  - **Sanitiser**: –1.96%  
+→ These categories show both sharp demand drops and weak price recovery.
+
+### 🧾 Product-Level Impact (Top Declining SKUs in Sydney)
+| Product Name                                  | YoY Revenue Decline |
+|----------------------------------------------|----------------------|
+| Lysol Laundry Sanitizer Free & Clear         | –9.17%               |
+| Preen Oxi Action Stain Remover Gel           | –8.76%               |
+| PHL Di-San Laundry Soaker                    | –7.84%               |
+| Napisan Vanish Gold Pro Stain Remover        | –7.72%               |
+| Cold Power Advanced Clean Laundry Liquid     | –5.92%               |
+
+These SKUs dominate the negative side of Sydney’s product performance, particularly in Soaker and Sanitiser categories.
+
+---
 
 ### ✅ Recommendation:
-Reinvest in promotions, adjust product mix, and troubleshoot execution issues in affected stores.
+1. **Coles-Focused Action Plan**: Launch targeted recovery initiatives at Coles Store 41 (pricing promos, assortment reset).
+2. **Re-engage Failing Categories**: Audit Soaker/Sanitiser strategy in Sydney; test in-store activations or promo bundling.
+3. **Woolworths as a Bright Spot**: Replicate winning tactics from the Woolworths store showing +2% YoY growth.
+4. **Product Rationalization**: Consider rationalizing or repositioning persistent low-performers like Lysol Sanitiser in Sydney if trends continue.
 
 ---
 
@@ -156,58 +185,96 @@ These dashboards create a layered view — starting with the macro revenue curve
 
 ## 9. Business Question 1: What explains the revenue volatility across 2024–2025?
 
-Dashboard 5 highlights a major **revenue dip in March–April** and a **sharp rebound in May 2025**. To explain:
+Dashboard 5 reveals the clearest view of revenue volatility across 2024–2025 through MoM and YoY trend lines. The data shows two standout movements:  
+- A sharp **revenue and unit decline in March–April 2025**  
+- A significant **recovery in May 2025**
 
-### 📉 March–April Declines:
-- Revenue fell across **all store locations** (Dashboard 6):  
-  - CBD: –6.58%  
-  - Commercial: –6.05%  
-  - Residential: –5.61%
-- Simultaneous declines in **major cities** (Dashboard 7):  
-  - Sydney: –7.82%  
-  - Melbourne: –7.25%  
-  - Adelaide: –6.00%
-- **Product category YoY drops** (Dashboard 8):  
-  - Laundry Liquid: –5.81%  
-  - Soaker: –5.67%  
-  - Sanitiser: –7.18%
+---
 
-### 📈 May Rebound Drivers:
-- Revenue and units sold rebounded sharply:  
-  - +25.29% MoM revenue  
-  - +25.06% MoM units sold
-- Volume-driven recovery seen across **Fabric Refresher**, **Sheets**, and **Softener**  
-- Every city and location saw neutral or positive YoY growth in May
+### 📉 March–April 2025 Decline (Dashboard 5)
+- **MoM Revenue Drop**:  
+  - March: –11.06%  
+  - April: –1.01%  
+- **MoM Units Sold**:  
+  - March: –11.03%  
+  - April: –0.64%  
+→ These drops represent the lowest two-month performance stretch in the observed timeframe.
+
+### 🔍 Root-Cause Breakdown:
+**Across Locations (Dashboard 6):**  
+- Suburban: –6.25% YoY revenue (Apr)  
+- CBD: –6.58%  
+- Commercial & Residential: ~–5%  
+
+**Across Cities (Dashboard 7):**  
+- Sydney: –7.82%  
+- Melbourne: –7.25%  
+- Canberra: –5.57%  
+→ City-level declines were synchronized, pointing to a macro-level disruption (e.g., consumer behavior shift, supply challenge, post-promo drop).
+
+**Across Categories (Dashboard 8/9):**  
+- Laundry Sanitiser: –7.18% (Apr)  
+- Laundry Liquid: –5.81%  
+- Stain Remover & Soaker: > –5.5%  
+→ The decline was demand-driven, affecting volume-heavy and hygiene-focused categories.
+
+---
+
+### 📈 Recovery in May 2025
+- **MoM Revenue Jump**: +25.29%  
+- **MoM Units Sold**: +25.06%  
+- **City & Location Rebound**: All major cities and store types shifted back to positive YoY  
+- **Category Leaders**:  
+  - Fabric Refresher: +4.42%  
+  - Laundry Liquid: +2.26%  
+  - Sheets: +1.93%
+
+---
 
 ### ✅ Recommendation:
-Develop early-warning alerts based on seasonal trend patterns and past volatility. Design a Q2-specific promotional playbook, launching campaigns and adjusting inventory by late Q1 to protect against multi-dimensional slowdowns. Sustain May’s momentum by mirroring stock and pricing strategies.
+- **Operational Planning**: Pre-stock and price optimize key SKUs before March. Develop seasonal protection plans for Q2.
+- **Trend-Based Promotions**: Use early-March signals (e.g., unit softness) as promo triggers.
+- **Marketing Sync**: Amplify cross-category campaigns in May to sustain surge across more cities and store types.
+
+📎 *Attach Dashboards 5, 6, 7, 8*
 
 ---
 
 ## 10. Business Question 2: Which dimensions most influenced growth and contraction?
 
-Several dimensions contributed directly to both revenue growth and contraction across the reporting period.
+This question uncovers the structural levers behind volatility — from product lines to city performance and retail chain behavior.
 
-### 📊 Key Contributors & Drivers:
+### 🧺 Product Category Influence (Dashboard 8/9)
+- **Growth Drivers** (Jun–Sep):  
+  - Fabric Refresher: +8.58% YoY  
+  - Laundry Sheets: strong rebound (+6.09% in Sydney alone)  
+- **Declining Categories (Mar–Apr)**:  
+  - Sanitiser, Soaker, Stain Remover: all declined 5–7% YoY consistently
 
-- **Product Categories (Dashboard 8/9):**  
-  - **Growth**: Fabric Refresher, Laundry Sheets (esp. July–Sep)  
-  - **Decline**: Sanitiser, Soaker, Stain Remover (notable dip Mar–Apr)
+### 🏙️ City-Level Impact (Dashboard 7)
+- **Growth Cities**:  
+  - Darwin: +2.92%  
+  - Adelaide & Canberra: steady mid-single-digit growth  
+- **Lagging Cities**:  
+  - Sydney: –0.62% YoY  
+  - Melbourne: <+1% with volatility  
+→ Geography was a key segmentation lever in both positive and negative periods.
 
-- **Cities (Dashboard 7):**  
-  - **Growth Drivers**: Darwin, Adelaide, Perth  
-  - **Contraction**: Sydney and Melbourne
+### 📍 Store Location (Dashboard 6)
+- Residential and Commercial stores recovered faster and showed less contraction than CBD/Suburban formats.
 
-- **Locations (Dashboard 6):**  
-  - Commercial and Residential zones showed higher resilience and positive growth  
-  - CBD and Suburban lagged behind across multiple months
+### 🛒 Retail Channel Performance
+- **Winners**: Woolworths and ALDI led growth in both revenue and inventory turnover  
+- **Laggards**: Coles stores showed poor YoY revenue, stock gaps, and greater unit decline risk
 
-- **Retail Chains / Store Level:**  
-  - **Positive**: Woolworths and ALDI stores outperformed in both revenue and inventory efficiency  
-  - **Negative**: Coles branches showed multiple cases of negative growth and stockouts
+---
 
 ### ✅ Recommendation:
-Prioritize resources (marketing, inventory, store training) in proven growth areas like Fabric Refresher, Residential/Commercial locations, and outperforming cities. For Coles and Sydney/Melbourne, design pilot programs for localized campaigns, optimized pricing, and replenishment logic. Monitor MoM metrics closely to catch shifts early.
+- **Double Down on Growth Areas**: Focus more SKUs and campaigns in Darwin, Adelaide, Residential zones, and Woolworths channels.
+- **Corrective Strategy for Coles**: Test price, space allocation, and promotion bundle adjustments.
+- **Flexible Inventory Allocation**: Let category performance guide store-level inventory thresholds month-to-month.
+
+📎 *Attach Dashboards 6, 7, 8, 9*
 
 ---
 
