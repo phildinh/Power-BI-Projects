@@ -16,7 +16,7 @@
 ---
 
 ## 1. Project Overview
-This project analyzes the sales performance of a national laundry product retailer in Australia across 2024 and 2025. The focus is on understanding trends in revenue, units sold, product demand, and store-level execution. The dataset spans **January 2024 to September 2025**, with granularity across time, product, store, location, and inventory levels. This analysis supports both strategic business evaluation and operational improvements.
+This project analyzes the sales performance **(One million sales transactions)** of a national laundry product retailer in Australia across 2024 and 2025. The focus is on understanding trends in revenue, units sold, product demand, and store-level execution. The dataset spans **January 2024 to September 2025**, with granularity across time, product, store, location, and inventory levels. This analysis supports both strategic business evaluation and operational improvements.
 
 ---
 
